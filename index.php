@@ -96,7 +96,7 @@
         dataType: 'json',
         url: 'salvar.php',
         async: true,
-        data: dados,,
+        data: dados,
         success: function(response) {
           location.reload();
         }
@@ -114,7 +114,7 @@
 
       // colocando o fundo preto
       $('#mascara').css({
-        'height': alturaTela
+        'height': alturaTela,
         'widht': larguraTela,
         
       });
